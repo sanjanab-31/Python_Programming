@@ -33,6 +33,3 @@ print(calendar.month(int(input("Enter the year")), int(input("Enter the month"))
 # help("topics")
 # help("modules package")
 
-import instaloader
-instaloader.Instaloader().download_profile(input("Enter username"), profile_pic_only=True)
-print("Done")
